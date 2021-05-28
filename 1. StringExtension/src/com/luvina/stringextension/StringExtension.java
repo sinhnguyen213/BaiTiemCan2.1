@@ -11,8 +11,8 @@ public class StringExtension {
 		// text = text.replaceAll("\\W+", "");
 		Arrays.sort(str);
 		int count1 = 1;
-		int count2 = 1;
-		String s = str[0] + "";
+		int count2 = 0;
+		String s = "";
 		for (int i = 0; i < str.length - 1; i++) {
 			if ((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122)) {
 				if (str[i] == str[i + 1]) {
